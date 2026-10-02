@@ -9,8 +9,8 @@ public class StringFun {
         // .length() func -- returns length (wow!)
         int len = s.length(); // len=5
 
-        // .indexOf(char)
-        int i = s.indexOf('l'); // i=2
+        // .indexOf(String)
+        int i = s.indexOf("l"); // i=2
 
         // .compareTo(String) -- I am never using this
         int c = s.compareTo("World"); 
