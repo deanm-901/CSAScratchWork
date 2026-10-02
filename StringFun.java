@@ -18,9 +18,7 @@ public class StringFun {
         // .equals(String) -- Becuase String is a reference to memory, you need to use .equals(), not '=='
         boolean q = s.equals("Hello");
 
-        // .substring(int index, int endIndex)
-        String llo = s.substring(2,4);
-
-        // 
+        // .substring(int index, int stopIndex)
+        String llo = s.substring(2,5);
     }
 }
